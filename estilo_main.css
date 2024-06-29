@@ -1,0 +1,81 @@
+@font-face {
+    font-family: 'PFBeauSansPro-Bold';
+    font-style: normal;
+    font-weight: normal;
+    src: local('PFBeauSansPro-Bold'), url('UFONTS.COM_PFBEAUSANSPRO-BOLD.woff') format('woff');
+    }
+
+* {
+    padding: 0;
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+:root {
+    --cor_primaria: #363636;
+    --cor_secundaria: #4b4949;
+    --cor_terciaria: #eeeeee;
+    --cor_destaque: #c50618ff;
+}
+
+h1 {
+    color: var(--cor_terciaria);
+    font-style: italic;
+    font-family: PFBeauSansPro-Bold;
+}
+
+header {
+    background-color: rgb(27, 26, 26);
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    border-bottom: 5px solid #BF001F;
+}
+
+main {
+    background-color: var(--cor_primaria);
+    height: 72.6vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 35px;
+}
+
+.icon {
+    width: 30px;
+    height: 30px;
+    vertical-align: middle;
+    fill: #eeeeeeff;
+    margin-right: 10px;
+}
+
+.logomarca img{
+    width: 320px;
+    height: 200px;
+}
+
+.opcoes {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 60px;
+}
+
+.opcao button{
+    background-color: var(--cor_secundaria);
+    padding: 30px;
+    width: 300px;
+    border: 4px solid #656262;
+    font-size: 26px;
+    color: var(--cor_terciaria);
+    display: table-cell;
+    vertical-align: middle;
+}
+
+.opcao:hover {
+    transform: scale(1.1);
+}
+.opcao:hover {
+    transform: scale(1.1);
+}
